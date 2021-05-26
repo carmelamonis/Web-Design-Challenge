@@ -14,7 +14,7 @@
         <link href="styles.css" rel="stylesheet" />
     </head>
 
-
+    
     <body>
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -38,20 +38,7 @@
                 </div>
             </div>
         </nav>
-        <!-- Header>
-        <header class="py-5">
-            <div class="container px-lg-5">
-                <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
-                    <div class="m-4 m-lg-5">
-                        <h1 class="display-5 fw-bold">A warm welcome!</h1>
-                        <p class="fs-4">Bootstrap utility classes are used to create this jumbotron since the old component has been removed from the framework. Why create custom CSS when you can use utilities?</p>
-                        <a class="btn btn-primary btn-lg" href="#!">Call to action</a>
-                    </div>
-                </div>
-            </div>
-        </header-->
-        <!-- Page Content-->
-        
+
         <section class="pt-4">
             <div class="container px-lg-5">
                 <!-- Page Features-->
@@ -60,16 +47,13 @@
                         <div class="card bg-light border-0 h-100">
                             <div class="card-body p-4 p-lg-5 pt-0 pt-lg-0">
                                 <section>
-                                    <h1>Summary: Latitude vs. X</h1>
+                                    <h1>Cloudiness</h1>
                                     <hr/>
-                                    <img src="Resources/assets/images/Fig1.png" ALIGN="left" width="60%" height="60%">
-                                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.
-                                        To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-                                    </p>
-                
-                                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
-                                        Factor we looked at included: temperature, cloudiness, wind speed, and humidity.
-                                        The site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                                    <img src="Resources/assets/images/Fig3.png" ALIGN="left" width="60%" height="60%" alt="Cloudiness">
+                                    <p>
+                                        This is analyizing how cloudy it gets depending on the latitude. According to the plot, there isn't much of relationship between the latitude and cloudiness since regardless of latitude the cloudiness percentage is more in the extremes (0 and 100%)
+                                        The r-value for the northern hemisphere is 0.0816, and 0.1791 for the southern hemisphere.
+                                        The linear regression model is explaining that there isn't really a linear relationship between the latitude and cloudiness, especially with very low r-values. The value for the northern hemisphere is even lower and has more data. As for the southern hemisphere, if we had more data, we can assume that the r-value will also decrease. Most are clustering at the extremes of the cloudiness.
                                     </p>
                                 </section>                            </div>
                         </div>
@@ -102,43 +86,6 @@
                         </div>
                     </div>
 
-
-                    <!--div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-card-heading"></i></div>
-                                <h2 class="fs-4 fw-bold">Jumbotron hero header</h2>
-                                <p class="mb-0">The heroic part of this template is the jumbotron hero header!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-bootstrap"></i></div>
-                                <h2 class="fs-4 fw-bold">Feature boxes</h2>
-                                <p class="mb-0">We've created some custom feature boxes using Bootstrap icons!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-code"></i></div>
-                                <h2 class="fs-4 fw-bold">Simple clean code</h2>
-                                <p class="mb-0">We keep our dependencies up to date and squash bugs as they come!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-patch-check"></i></div>
-                                <h2 class="fs-4 fw-bold">A name you trust</h2>
-                                <p class="mb-0">Start Bootstrap has been the leader in free Bootstrap templates since 2013!</p>
-                            </div>
-                        </div>
-                    </div-->
                 </div>
             </div>
         </section>

@@ -1,3 +1,33 @@
+<!--body>
+    <section>
+        <h1>Max Temperature</h1>
+        <img src="Resources/assets/images/Fig1.png" alt="Max Temperature">
+        <p>
+            Summary Goes Here
+        </p>
+    </section>
+
+    <section>
+        <h2>Visualizations</h2>
+        <hr/>
+        <a href="#">
+            <img src="Resources/assets/images/Fig1.png">
+        </a>
+        <a href="#">
+            <img src="Resources/assets/images/Fig2.png">
+        </a>
+        <a href="#">
+            <img src="Resources/assets/images/Fig3.png">
+        </a>
+        <a href="#">
+            <img src="Resources/assets/images/Fig4.png">
+        </a>
+
+    </section>
+</body-->
+
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -14,7 +44,7 @@
         <link href="styles.css" rel="stylesheet" />
     </head>
 
-
+    
     <body>
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -60,16 +90,13 @@
                         <div class="card bg-light border-0 h-100">
                             <div class="card-body p-4 p-lg-5 pt-0 pt-lg-0">
                                 <section>
-                                    <h1>Summary: Latitude vs. X</h1>
+                                    <h1>Wind Speed</h1>
                                     <hr/>
-                                    <img src="Resources/assets/images/Fig1.png" ALIGN="left" width="60%" height="60%">
-                                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.
-                                        To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-                                    </p>
-                
-                                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
-                                        Factor we looked at included: temperature, cloudiness, wind speed, and humidity.
-                                        The site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                                    <img src="Resources/assets/images/Fig4.png" ALIGN="left" width="60%" height="60%" alt="Wind Speed">
+                                    <p>
+                                        This analyzes whether the wind speed has any relationship with the latitude. According to the plot, the wind speed is pretty consistent regardless of latitutde, staying within the 0-10mph range.
+                                        The r-value for the northern hemisphere is 0.0656, and -0.0148 for the southern hemisphere.
+                                        There is almost no relationship between latitude and wind speed at all. This can be seen by the r-values and the slope of the linear equations. The slope is almost 0, and so it would assume that the wind speed is about 7mph throughout, which is impossible. They do have fairly close intercepts. Most data points are clustering around the wind speed of about less than 10 mph.
                                     </p>
                                 </section>                            </div>
                         </div>
