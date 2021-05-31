@@ -145,3 +145,6 @@ OpenWeatherMap.org. (2012). Сurrent weather and forecast. Retrieved from [https
 - - -
 
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+
+Citation: Template from https://startbootstrap.com/template/heroic-features
