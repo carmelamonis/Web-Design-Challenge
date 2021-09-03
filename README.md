@@ -9,6 +9,6 @@ I used Bootstrap to create the dashboard, and made the header allow a dropdown f
 
 This can be deployed using the link: [https://carmelamonis.github.io/Web-Design-Challenge/index.html]( https://carmelamonis.github.io/Web-Design-Challenge/index.html)
 
-![Normal](images/normal.png)
+![Normal](Images/normal.png)
 
-![Smaller](images/smaller.png)
+![Smaller](Images/smaller.png)
