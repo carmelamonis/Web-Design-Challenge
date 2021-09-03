@@ -1,5 +1,5 @@
 ## Summary
-I a continuation from my previous [Python API Challenge]( https://github.com/carmelamonis/python-api-challenge), I took the visualizations that were generated to build a dashboard. The dashboard will contain  a landing page, comparisons page, data page, and four visualization pages. The main goal is to utilize Bootstrap to create a web page.
+In a continuation from my previous [Python API Challenge]( https://github.com/carmelamonis/python-api-challenge), I took the visualizations that were generated to build a dashboard. The dashboard will contain  a landing page, comparisons page, data page, and four visualization pages. The main goal is to utilize Bootstrap to create a web page.
 
 ## Scope
 
